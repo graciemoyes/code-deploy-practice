@@ -1,5 +1,5 @@
 CodeDeploy auto-deploy from GitHub Actions (S3 artifact)
-
+hi
 This repository contains a GitHub Actions workflow that triggers an AWS CodeDeploy deployment on pushes to the `main` branch. The deployment uses an S3 artifact: the workflow packages the repo (including `appspec.yml`, hooks, and a small `deploy-info.json` file), uploads it to S3, and tells CodeDeploy to deploy that bundle.
 
 Required repository settings
